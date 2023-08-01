@@ -24,8 +24,8 @@ export function Home() {
             </div>
 
             <div className="d-flex">
-              <Nav.Link ><FaWhatsapp className="icon-navbar" /></Nav.Link>
-              <Nav.Link ><FaInstagram className="icon-navbar" /></Nav.Link>
+              <Nav.Link href="https://api.whatsapp.com/send?phone=5517997248775&text=Ol%C3%A1%2C+gostaria+de+pedir+uma+marmita" target="_blank" rel="noreferrer" ><FaWhatsapp className="icon-navbar" /></Nav.Link>
+              <Nav.Link href="https://www.instagram.com/superpostoalvorada/" target="_blank" rel="noreferrer" ><FaInstagram className="icon-navbar" /></Nav.Link>
             </div>
           </Nav>
 
