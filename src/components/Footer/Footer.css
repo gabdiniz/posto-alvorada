@@ -36,6 +36,11 @@
     transition: 0.2s;
     color: #0A1744 !important;
     transition: 0.2s;
+    padding-top: 2px;
+
+    .icon-navbar {
+        color: #0A1744 !important;
+    }
 }
 
 .bottom {
