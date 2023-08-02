@@ -11,7 +11,6 @@ export function Header() {
         <Container>
           <div className="d-flex align-items-center gap-3">
             <img className="logo-navbar" src={logo6} alt="Logo do posto alvorada" />
-            {/* <span className="title-navbar">ALVORADA</span> */}
           </div>
           <Nav className="gap-5 align-items-bottom">
             <div className="d-flex gap-2">
@@ -19,7 +18,6 @@ export function Header() {
               <Nav.Link className="item-navbar">Serviços</Nav.Link>
               <Nav.Link className="item-navbar">Conveniência</Nav.Link>
               <Nav.Link className="item-navbar">Marmitaria</Nav.Link>
-              <Nav.Link className="item-navbar">Contato</Nav.Link>
               <Nav.Link className="item-navbar">Como Chegar</Nav.Link>
             </div>
 
