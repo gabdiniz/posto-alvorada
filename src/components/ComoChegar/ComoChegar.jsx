@@ -22,7 +22,7 @@ export function ComoChegar() {
         </div>
         <div className="card-como-chegar d-flex flex-column">
           <img className="img-card-como-chegar" src={card3} alt="" />
-          <h2 className="title-card-como-chegar mt-3">Horario de <br />Funcionamento</h2>
+          <h2 className="title-card-como-chegar mt-3">Horário de <br />Funcionamento</h2>
           <span className="span-card-como-chegar">De segunda a domingo, <br /> atendimento 24 horas</span>
         </div>
       </Container>

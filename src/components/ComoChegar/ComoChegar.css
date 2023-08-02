@@ -8,11 +8,11 @@
   padding: 80px;
 }
 
-.card-como-chegar {}
-
 .title-card-como-chegar {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   color: #F8B939;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 30px;
 }
 
 .span-card-como-chegar {
