@@ -23,13 +23,18 @@
 }
 
 .item-navbar {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   padding-top: 15px;
+  padding-inline: 15px;
   color: white;
   font-weight: 500;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .item-navbar:hover {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #0A1744;;
   border-bottom: solid 1px #0A1744;
   transition: 0.2s;
 }

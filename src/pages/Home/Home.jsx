@@ -1,19 +1,16 @@
-import { ComoChegar } from "../../components/ComoChegar/ComoChegar";
-import { Footer } from "../../components/Footer/Footer";
-import { Header } from "../../components/Header/Header";
-import { Sobre } from "../../components/Sobre/Sobre";
+import { Container } from "react-bootstrap";
 import "./Home.css";
 
 export function Home() {
-
-  return (
-    <>
-      <div className="div-maior-home d-flex flex-column justify-content-between">
-        <Header />
-        <Sobre />
-        <ComoChegar />
-        <Footer />
-      </div>
-    </>
-  );
+    return (
+        <>
+            <div className="home">
+                <Container>
+                    <div className='homeTexto'>
+                        <h1>ONDE A TRADIÇÃO E QUALIDADE SE UNEM PARA MELHOR ATENDE-LÔ</h1>
+                    </div>
+                </Container>
+            </div>
+        </>
+    );
 };
