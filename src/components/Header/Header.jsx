@@ -2,6 +2,7 @@ import "./Header.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import logo6 from "../../images/logo6.png";
 import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { Link } from 'react-scroll'
 
 export function Header() {
 
@@ -14,11 +15,11 @@ export function Header() {
           </div>
           <Nav className="gap-5 align-items-bottom">
             <div className="d-flex gap-2">
-              <Nav.Link className="item-navbar">Sobre Nós</Nav.Link>
-              <Nav.Link className="item-navbar">Serviços</Nav.Link>
-              <Nav.Link className="item-navbar">Conveniência</Nav.Link>
-              <Nav.Link className="item-navbar">Marmitaria</Nav.Link>
-              <Nav.Link className="item-navbar">Como Chegar</Nav.Link>
+              <Link className="item-navbar" to="sobre" spy={true} smooth={true} offset={-100} duration={100} >Sobre Nós</Link>
+              <Link className="item-navbar" to="servicos" spy={true} smooth={true} offset={-100} duration={500}>Serviços</Link>
+              <Link className="item-navbar" to="conveniencia" spy={true} smooth={true} offset={-100} duration={500}>Conveniência</Link>
+              <Link className="item-navbar" to="marmitaria" spy={true} smooth={true} offset={-100} duration={500}>Marmitaria</Link>
+              <Link className="item-navbar" to="div-maior-como-chegar" spy={true} smooth={true} offset={-15} duration={200}>Como Chegar</Link>
             </div>
 
             <div className="d-flex">
