@@ -7,10 +7,7 @@ export function Home() {
       <div className="home">
         <Container>
           <div className="homeTexto">
-            <h1>
-              ONDE A TRADIÇÃO E QUALIDADE SE UNEM <br />
-              PARA MELHOR ATENDE-LÔ
-            </h1>
+            <h1>ONDE A TRADIÇÃO E QUALIDADE SE UNEM PARA MELHOR ATENDE-LÔ</h1>
           </div>
         </Container>
       </div>

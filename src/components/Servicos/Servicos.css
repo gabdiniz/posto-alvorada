@@ -10,7 +10,7 @@
 }
 
 .title-servicos {
-    /* font-family: 'Plus Jakarta Sans', sans-serif; */
+     font-family:  'Mohave', sans-serif; 
     font-weight: 600;
     color: #0F3386;
     font-size: 40px;
@@ -25,7 +25,7 @@
 .p-servicos {
     font-size: 17px;
     font-weight: 500;
-    font-family: 'Lexend Deca', sans-serif;
+     font-family:  'Mohave', sans-serif; 
     text-align: justify;
     word-wrap: break-word;
 }

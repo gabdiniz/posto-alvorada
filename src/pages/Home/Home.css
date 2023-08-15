@@ -23,7 +23,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Mohave', sans-serif; 
     color: #F8B939;
     /* padding-top: 15px; */
     position: relative; /* Por exemplo, use a posição relativa para ajustar o conteúdo acima do pseudo-elemento */
