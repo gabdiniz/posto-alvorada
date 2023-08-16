@@ -1,14 +1,14 @@
 /* Estilize o elemento .capa que terá o fundo com a imagem */
-.home {
+.Banner {
     position: relative; /* Garante que o pseudo-elemento esteja posicionado corretamente */
-    background: #000 url('../../images/capa-home/posto_capa.png') no-repeat center -16rem ;
+    background: #000 url('../../images/capa-Banner/posto_capa.png') no-repeat center -16rem ;
     background-size: cover;
     height: 85vh;
     width: 100%;
 }
 
 /* Crie o pseudo-elemento ::before para adicionar o efeito opaco */
-.home::before {
+.Banner::before {
     content: ''; /* Certifique-se de adicionar algum conteúdo ao pseudo-elemento */
     position: absolute; /* Posicione o pseudo-elemento em relação ao elemento pai */
     top: 0;
@@ -19,18 +19,22 @@
 }
 
 /* Se necessário, ajuste a posição dos elementos filhos para que eles apareçam acima do pseudo-elemento */
-.homeTexto {
+.BannerTexto {
     display: flex;
     justify-content: center;
     text-align: center;
     font-family:  'Mohave', sans-serif; 
+    /* font-size: 2.25rem; */
     color: #F8B939;
     /* padding-top: 15px; */
     position: relative; /* Por exemplo, use a posição relativa para ajustar o conteúdo acima do pseudo-elemento */
     z-index: 1; /* Certifique-se de que o conteúdo apareça acima do pseudo-elemento (o valor pode variar dependendo do layout) */
     text-shadow: 0 0 30px white;
-    padding: 4rem 0;
-    
+    padding: 4rem 0;    
+}
+
+.BannerTexto h1 {
+    font-size: 2.85rem;
 }
 
 
