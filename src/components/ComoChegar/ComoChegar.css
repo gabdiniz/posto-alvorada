@@ -1,6 +1,11 @@
+.container {
+  text-align: center;
+  padding-bottom: 2rem;
+}
 .google-maps {
-  width: 280px;
-  height: 370px;
+  min-width: 900px;
+  height: 600px;
+  margin-top: 2rem;
 }
 
 .div-maior-como-chegar {
@@ -10,14 +15,16 @@
 
 .title-card-como-chegar {
    font-family:  'Mohave', sans-serif; 
-  color: #F8B939;
+  color: #0B1546;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 2.5rem;
 }
 
 .span-card-como-chegar {
   color: gray;
   font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 1.25rem;
 }
 
 .img-card-como-chegar {
