@@ -1,12 +1,12 @@
 import { Container } from 'react-bootstrap';
-import './Home.css';
+import './Banner.css';
 
-export function Home() {
+export function Banner() {
   return (
     <>
-      <div className="home">
+      <div className="Banner">
         <Container>
-          <div className="homeTexto">
+          <div className="BannerTexto">
             <h1>ONDE A TRADIÇÃO E QUALIDADE SE UNEM PARA MELHOR ATENDE-LÔ</h1>
           </div>
         </Container>

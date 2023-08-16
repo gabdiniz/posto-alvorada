@@ -1,9 +1,9 @@
-.header {
+.navbar {
   background-color: #F9A717;
   font-family:  'Mohave', sans-serif;
 }
 
-.title-navbar {
+/* .title-navbar {
   font-weight: bold;
   font-size: 30px;
   background: linear-gradient(0deg, white, white);
@@ -12,40 +12,44 @@
   -webkit-text-fill-color: #0A1744;
   background-clip: text;
   -webkit-text-stroke: 0.3px white;
-}
+} */
 
 .logo-navbar {
   width: 200px;
 }
 
-.capa-navbar {
+/* .capa-navbar {
   object-fit: cover;
-}
+} */
 
 .item-navbar {
   font-family:  'Mohave', sans-serif; 
-  padding-top: 15px;
-  padding-inline: 15px;
-  color: white;
-  font-weight: 500;
-  font-size: 20px;
+  margin-top: 2.25rem;
+  padding-top: 1rem;
+  padding-inline: 0.75rem;
+  color: #0B1546;
+  font-weight: 600;
+  font-size: 1.75rem;
   text-decoration: none;
+  border-bottom: 2px solid transparent;
 }
 
 .item-navbar:hover {
  font-family:  'Mohave', sans-serif;
-  color: #0A1744;;
-  border-bottom: solid 1px #0A1744;
-  transition: 0.2s;
+  color: #ffffff;
+  border-bottom: solid 2px  #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .icon-navbar {
-  color: white;
-  font-size: 40px;
+  color: #0B1546;
+  font-size: 2.5rem;
+  margin-top: 2.5rem;
 }
 
 .icon-navbar:hover {
-  color: #0A1744;
+  color: #ffffff;
   font-size: 40px;
   transition: 0.4s;
 }

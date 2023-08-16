@@ -1,13 +1,13 @@
-import './Header.css';
+import './Navegacao.css';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo6 from '../../images/logo6.png';
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
-export function Header() {
+export function Navegacao() {
   return (
     <>
-      <Navbar expand="lg" className="header">
+      <Navbar expand="lg" className="navbar">
         <Container className="pt-2 pb-2">
           <div className="d-flex align-items-center gap-3">
             <img

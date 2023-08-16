@@ -1,16 +1,16 @@
-import { Header } from './components/Header/Header';
+import { Navegacao } from './components/Navegacao/Navegacao';
 import { Sobre } from './components/Sobre/Sobre';
 import { ComoChegar } from './components/ComoChegar/ComoChegar';
 import { Footer } from './components/Footer/Footer';
-import { Home } from './pages/Home/Home';
+import { Banner } from './components/Banner/Banner';
 import { Servicos } from './components/Servicos/Servicos';
 import IrParaInicio from './components/IrParaInicio/IrParaInicio';
 
 function App() {
   return (
     <div>
-      <Header />
-      <Home />
+      <Navegacao />
+      <Banner />
       <Sobre />
       <Servicos />
       <ComoChegar />
