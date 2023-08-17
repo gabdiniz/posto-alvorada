@@ -8,7 +8,7 @@ import img3 from '../../images/sobre/gasolina.png';
 export function Sobre() {
   return (
     <>
-      <section className="container-sobre">
+      <section className="container-sobre sobre">
         <div className="d-flex justify-content-around align-items-center flex-wrap mb-5">
           <img className="logo-sobre" src={img} alt="" />
           <div>
@@ -60,22 +60,6 @@ export function Sobre() {
             </Card.Body>
           </Card>
         </div>
-        {/* <div className="div_sobre">
-          <div className="div-sobre-img">
-            <img className="img-sobre" src={img} alt="" />
-          </div>
-          <div className="d-flex flex-column div-sobre-text">
-            <h1 className="title-sobre my-4">Super Posto Alvorada</h1>
-            <p className="p-sobre">
-              Bem-vindo, o seu destino confiável para abastecimento e
-              atendimento excepcional em Fernandópolis. Com mais de 30 anos de
-              experiência no setor de postos de combustível, nos orgulhamos em
-              ser uma referência na cidade, oferecendo serviços de qualidade e
-              uma equipe dedicada que coloca os nossos clientes em primeiro
-              lugar.
-            </p>
-          </div>
-        </div> */}
       </section>
     </>
   );
