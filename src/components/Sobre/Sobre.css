@@ -1,41 +1,5 @@
-.div_sobre {
-  background-color: #F8B939;
-}
-
-
-.p-sobre {
-  word-wrap: break-word;
-  font-size: 17px;
-  font-weight: 500;
-   font-family:  'Mohave', sans-serif; 
-  /* text-align: justify; */
-}
-
-.sobre {
+.container-sobre {
   background-color: #F8B939;
   padding: 80px;
-  flex-wrap: wrap;
 }
 
-.div-sobre-text {
-  max-width: 500px;
-  padding: 50px;
-  background-color: white;
-}
-
-.div-sobre-img {
-  max-width: 500px;
-}
-
-.img-sobre {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.title-sobre {
-   font-family:  'Mohave', sans-serif; 
-  font-weight: 600;
-  color: #0F3386;
-  font-size: 35px;
-  margin-bottom: 10px;
-}
