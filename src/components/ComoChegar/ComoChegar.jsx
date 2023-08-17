@@ -21,6 +21,25 @@ export function ComoChegar() {
           </a>
           para acessar o Google Maps
         </span>
+        <span className="dados-mobile">
+          <div>
+            <h2>Localização</h2>
+            <p className="localização">
+              Av. dos Expedicionários Brasileiros, 711 <br /> Bairro Coester,{' '}
+              <br />
+              Fernandópolis - SP
+            </p>
+          </div>
+          <div>
+            <h2>
+              Horário <br /> de <br />
+              Funcionamento
+            </h2>
+            <p>
+              De segunda a domingo, <br /> atendimento 24 horas
+            </p>
+          </div>
+        </span>
         <div className="card-como-chegar">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14970.047535465977!2d-50.2436542!3d-20.2790687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94981ef369d2954d%3A0x77b5d1872ff9ee76!2sPosto%20Alvorada!5e0!3m2!1spt-BR!2sbr!4v1690988700150!5m2!1spt-BR!2sbr"

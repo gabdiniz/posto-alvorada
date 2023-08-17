@@ -27,14 +27,41 @@
   margin-bottom: 1.25rem;
 }
 
-.img-card-como-chegar {
-  width: 280px;
-  height: 370px;
-  object-fit: cover;
-}
-
 .link-span-como-chegar {
   color: #0F3386;
   cursor: pointer;
   text-decoration: none
 }
+.dados-mobile {
+  display: none;
+}
+@media (max-width: 990px){
+  .google-maps {
+    min-width: 600px;
+    height: 600px;    
+    margin-top: 2rem;
+  }
+  .dados-mobile {
+    display: flex;
+    padding-top: 1rem;
+    /* margin-right: 1rem; */
+    column-gap: 1rem;
+    justify-content: center;
+  }
+  .dados-mobile p {
+    text-overflow: ellipsis;    
+    max-width: 200px; 
+  } 
+}
+
+
+@media (max-width: 720px) {
+  .google-maps {
+    min-width: 400px;
+    height: 400px;
+    margin-top: 2rem;
+    
+  }   
+  
+}
+
