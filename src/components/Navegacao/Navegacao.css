@@ -3,24 +3,12 @@
   font-family:  'Mohave', sans-serif;
 }
 
-/* .title-navbar {
-  font-weight: bold;
-  font-size: 30px;
-  background: linear-gradient(0deg, white, white);
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: #0A1744;
-  background-clip: text;
-  -webkit-text-stroke: 0.3px white;
-} */
-
 .logo-navbar {
   width: 200px;
 }
-
-/* .capa-navbar {
-  object-fit: cover;
-} */
+.nav-web {
+  display: flex;
+}
 
 .item-navbar {
   font-family:  'Mohave', sans-serif; 
@@ -29,13 +17,12 @@
   padding-inline: 0.75rem;
   color: #0B1546;
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   text-decoration: none;
   border-bottom: 2px solid transparent;
 }
 
-.item-navbar:hover {
- font-family:  'Mohave', sans-serif;
+.item-navbar:hover { 
   color: #ffffff;
   border-bottom: solid 2px  #ffffff;
   transition: 0.3s;
@@ -46,6 +33,8 @@
   color: #0B1546;
   font-size: 2.5rem;
   margin-top: 2.5rem;
+  background-color: transparent;
+  border: none;
 }
 
 .icon-navbar:hover {
@@ -59,8 +48,25 @@
   transition: 0.2s;
 }
 
-@media (max-width: 768px){
-  .nav-mobile {
-    flex-direction: row;
+@media (max-width: 990px){
+ 
+  .nav-web{
+    display: none!important; ;
   }
+   .nav-mobile {
+    height: 90%;
+   
+   }
+  .nav-mobile-body {
+    display: flex;
+    flex-direction: column;    
+  }
+  
+  .icon-navbar:hover {  
+  color: #0A1744;
 }
+.item-navbar:hover { 
+  color: #0A1744;  
+}
+}
+

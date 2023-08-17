@@ -1,10 +1,18 @@
 import './Navegacao.css';
-import { Container, Nav, Navbar } from 'react-bootstrap';
-import logo6 from '../../images/logo6.png';
-import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
+import { FaWhatsapp, FaInstagram, FaBars } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import { useState } from 'react';
+import logo6 from '../../images/logo6.png';
+import logo from '../../images/logo6.png';
 
 export function Navegacao() {
+  const [showOffcanvas, setShowOffcanvas] = useState(false);
+
+  const handleOffcanvasToggle = () => {
+    setShowOffcanvas(!showOffcanvas);
+  };
+
   return (
     <>
       <Navbar expand="lg" className="navbar">
@@ -16,8 +24,8 @@ export function Navegacao() {
               alt="Logo do posto alvorada"
             />
           </div>
-          <Nav className="gap-3 align-items-bottom">
-            <div className="d-flex gap-2 nav-mobile">
+          <Nav className=" align-items-bottom">
+            <div className="gap-2 nav-web">
               <Link
                 className="item-navbar"
                 to="sobre"
@@ -68,27 +76,119 @@ export function Navegacao() {
               >
                 Como Chegar
               </Link>
+              <div className="d-flex">
+                <Nav.Link
+                  href="https://api.whatsapp.com/send?phone=5517997248775&text=Ol%C3%A1%2C+gostaria+de+pedir+uma+marmita"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaWhatsapp className="icon-navbar" />
+                </Nav.Link>
+                <Nav.Link
+                  href="https://www.instagram.com/superpostoalvorada/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaInstagram className="icon-navbar" />
+                </Nav.Link>
+              </div>
             </div>
 
-            <div className="d-flex">
-              <Nav.Link
-                href="https://api.whatsapp.com/send?phone=5517997248775&text=Ol%C3%A1%2C+gostaria+de+pedir+uma+marmita"
-                target="_blank"
-                rel="noreferrer"
+            <div className="d-lg-none">
+              <button
+                style={{ color: '#0B1546' }}
+                className="navbar-toggler-icon icon-navbar"
+                onClick={handleOffcanvasToggle}
               >
-                <FaWhatsapp className="icon-navbar" />
-              </Nav.Link>
-              <Nav.Link
-                href="https://www.instagram.com/superpostoalvorada/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaInstagram className="icon-navbar" />
-              </Nav.Link>
+                {/* <FaBars /> */}
+              </button>
             </div>
           </Nav>
         </Container>
       </Navbar>
+      <Offcanvas
+        className="nav-mobile"
+        show={showOffcanvas}
+        onHide={() => setShowOffcanvas(false)}
+      >
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>
+            <img
+              className="logo-navbar"
+              src={logo}
+              alt="Logo do posto alvorada"
+            />
+          </Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body className="nav-mobile-body">
+          <Link
+            className="item-navbar"
+            to="sobre"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={100}
+          >
+            Sobre Nós
+          </Link>
+          <Link
+            className="item-navbar"
+            to="servicos"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Serviços
+          </Link>
+          <Link
+            className="item-navbar"
+            to="conveniencia"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Conveniência
+          </Link>
+          <Link
+            className="item-navbar"
+            to="marmitaria"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            Marmitaria
+          </Link>
+          <Link
+            className="item-navbar"
+            to="div-maior-como-chegar"
+            spy={true}
+            smooth={true}
+            offset={-15}
+            duration={200}
+          >
+            Como Chegar
+          </Link>
+          <div className="d-flex">
+            <Nav.Link
+              href="https://api.whatsapp.com/send?phone=5517997248775&text=Ol%C3%A1%2C+gostaria+de+pedir+uma+marmita"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaWhatsapp className="icon-navbar" />
+            </Nav.Link>
+            <Nav.Link
+              href="https://www.instagram.com/superpostoalvorada/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaInstagram className="icon-navbar" />
+            </Nav.Link>
+          </div>
+        </Offcanvas.Body>
+      </Offcanvas>
     </>
   );
 }

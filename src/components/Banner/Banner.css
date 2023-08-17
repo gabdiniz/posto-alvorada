@@ -1,7 +1,7 @@
 /* Estilize o elemento .capa que terá o fundo com a imagem */
 .Banner {
     position: relative; /* Garante que o pseudo-elemento esteja posicionado corretamente */
-    background: #000 url('../../images/capa-Banner/posto_capa.png') no-repeat center -16rem ;
+    background: #000 url('../../images/capa-Banner/posto_capa.png') no-repeat center center ;
     background-size: cover;
     height: 85vh;
     width: 100%;
@@ -30,7 +30,7 @@
     position: relative; /* Por exemplo, use a posição relativa para ajustar o conteúdo acima do pseudo-elemento */
     z-index: 1; /* Certifique-se de que o conteúdo apareça acima do pseudo-elemento (o valor pode variar dependendo do layout) */
     text-shadow: 0 0 30px white;
-    padding: 4rem 0;    
+    padding: 7rem 0;    
 }
 
 .BannerTexto h1 {

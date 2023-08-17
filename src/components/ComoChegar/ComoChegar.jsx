@@ -1,12 +1,10 @@
 import { Container } from 'react-bootstrap';
 import './ComoChegar.css';
-import card2 from '../../images/como-chegar/card-2.png';
-import card3 from '../../images/como-chegar/card-3.jpg';
 
 export function ComoChegar() {
   return (
     <>
-      <Container className="container">
+      <Container className="container div-maior-como-chegar">
         <h2 className="title-card-como-chegar mt-3">Como Chegar</h2>
         <span className="span-card-como-chegar">
           Clique em ver
