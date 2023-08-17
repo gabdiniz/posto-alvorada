@@ -9,7 +9,7 @@ export function Sobre() {
   return (
     <>
       <section className="container-sobre">
-        <div className="d-flex justify-content-around align-items-center flex-wrap mb-4">
+        <div className="d-flex justify-content-around align-items-center flex-wrap mb-5">
           <img className="logo-sobre" src={img} alt="" />
           <div>
             <h2 class="fw-bold fs-2">Quem somos</h2>
@@ -19,8 +19,8 @@ export function Sobre() {
             </p>
           </div>
         </div>
-        <div className="d-flex justify-content-around flex-wrap gap-3">
-          <Card style={{ width: '18rem' }}>
+        <div className="d-flex justify-content-around flex-wrap gap-1">
+          <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src={img1} />
             <Card.Body>
               <Card.Title class="fs-3 fw-bold text-center mt-1 mb-3">
@@ -33,7 +33,7 @@ export function Sobre() {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src={img3} />
             <Card.Body>
               <Card.Title class="fs-3 fw-bold text-center mt-1 mb-3">
@@ -46,7 +46,7 @@ export function Sobre() {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '20rem' }}>
             <Card.Img variant="top" src={img2} />
             <Card.Body>
               <Card.Title class="fs-3 fw-bold text-center mt-1 mb-3">
