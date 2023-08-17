@@ -17,7 +17,7 @@ export function Navegacao() {
             />
           </div>
           <Nav className="gap-3 align-items-bottom">
-            <div className="d-flex gap-2">
+            <div className="d-flex gap-2 nav-mobile">
               <Link
                 className="item-navbar"
                 to="sobre"

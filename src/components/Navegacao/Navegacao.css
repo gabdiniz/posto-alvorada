@@ -58,3 +58,9 @@
   color: #0A1744 !important;
   transition: 0.2s;
 }
+
+@media (max-width: 768px){
+  .nav-mobile {
+    flex-direction: row;
+  }
+}

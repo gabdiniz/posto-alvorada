@@ -15,7 +15,7 @@
 }
 .img-footer {
     max-width: 80%;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
 .footer h2 {
     color: #0A1744;
@@ -32,6 +32,7 @@
 }
 .footer .redes{
     margin-top: 3rem;
+    padding-right: 1rem;
 }
 .footer .icon-footer{
     font-size: 2rem;
@@ -66,5 +67,11 @@
     
 }
 
+@media (max-width: 990px) {
+    .footer {
+       display: none;
+    }   
+}
+    
 
 
