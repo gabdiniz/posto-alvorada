@@ -1,6 +1,8 @@
 import { Carousel, Container } from 'react-bootstrap';
 import './Servicos.css';
-import img from '../../images/sobre/sobre3.png';
+import trocaOleo from '../../images/servicos/troca de oleo.jpg';
+import combustivel from '../../images/servicos/combustivel.jpg';
+import limpezaCarro from '../../images/servicos/limpeza carro.jpeg';
 
 export function Servicos() {
   return (
@@ -25,7 +27,7 @@ export function Servicos() {
             <Carousel.Item>
               <img
                 className="img-combustivel"
-                src={img}
+                src={combustivel}
                 alt=""
                 text="Combustível"
               />
@@ -41,7 +43,7 @@ export function Servicos() {
             <Carousel.Item>
               <img
                 className="img-combustivel"
-                src={img}
+                src={trocaOleo}
                 alt=""
                 text="Combustível"
               />
@@ -56,7 +58,7 @@ export function Servicos() {
             <Carousel.Item>
               <img
                 className="img-combustivel"
-                src={img}
+                src={limpezaCarro}
                 alt=""
                 text="Combustível"
               />

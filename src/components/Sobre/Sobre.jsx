@@ -1,4 +1,4 @@
-import { Container, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import './Sobre.css';
 import img from '../../images/sobre/logo6 (1).png';
 import img2 from '../../images/sobre/sobre3.png';
