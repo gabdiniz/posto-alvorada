@@ -1,6 +1,5 @@
-import { FaHome, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import './Footer.css';
-import { Link } from 'react-scroll';
 import logo6 from '../../images/logo6.png';
 
 export function Footer() {

@@ -13,6 +13,10 @@ export function Navegacao() {
     setShowOffcanvas(!showOffcanvas);
   };
 
+  const closeOffcanvas = () => {
+    setShowOffcanvas(false); // Função para fechar o Offcanvas
+  };
+
   return (
     <>
       <Navbar expand="lg" className="navbar">
@@ -28,11 +32,11 @@ export function Navegacao() {
             <div className="gap-2 nav-web">
               <Link
                 className="item-navbar"
-                to="sobre"
+                to="container-sobre"
                 spy={true}
                 smooth={true}
-                offset={-100}
-                duration={100}
+                offset={50}
+                duration={50}
               >
                 Sobre Nós
               </Link>
@@ -41,8 +45,8 @@ export function Navegacao() {
                 to="servicos"
                 spy={true}
                 smooth={true}
-                offset={-100}
-                duration={500}
+                offset={30}
+                duration={100}
               >
                 Serviços
               </Link>
@@ -123,11 +127,12 @@ export function Navegacao() {
         <Offcanvas.Body className="nav-mobile-body">
           <Link
             className="item-navbar"
-            to="sobre"
+            to="container-sobre"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={0}
             duration={100}
+            onClick={closeOffcanvas}
           >
             Sobre Nós
           </Link>
@@ -136,8 +141,9 @@ export function Navegacao() {
             to="servicos"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={0}
             duration={500}
+            onClick={closeOffcanvas}
           >
             Serviços
           </Link>
@@ -148,6 +154,7 @@ export function Navegacao() {
             smooth={true}
             offset={-100}
             duration={500}
+            onClick={closeOffcanvas}
           >
             Conveniência
           </Link>
@@ -158,6 +165,7 @@ export function Navegacao() {
             smooth={true}
             offset={-100}
             duration={500}
+            onClick={closeOffcanvas}
           >
             Marmitaria
           </Link>
@@ -168,6 +176,7 @@ export function Navegacao() {
             smooth={true}
             offset={-15}
             duration={200}
+            onClick={closeOffcanvas}
           >
             Como Chegar
           </Link>
