@@ -5,6 +5,7 @@ import { Footer } from './components/Footer/Footer';
 import { Banner } from './components/Banner/Banner';
 import { Servicos } from './components/Servicos/Servicos';
 import IrParaInicio from './components/IrParaInicio/IrParaInicio';
+import { Conveniencia } from './components/Conveniencia/Conveniencia';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <Sobre />
       <Servicos />
+      <Conveniencia />
       <ComoChegar />
       <Footer />
       <IrParaInicio />
