@@ -46,7 +46,7 @@ export function Conveniencia() {
 
   return (
     <section className="container-conveniencia">
-      <div className="ms-3 titulo-slide mb-5">
+      <div className="ms-3 titulo-slide mb-5 text-center">
         <h2 className="fs-1">Conveniência Alvorada</h2>
         <p className="fs-5">
           Não importa o horário, tudo que você precisa ao seu alcançe!
