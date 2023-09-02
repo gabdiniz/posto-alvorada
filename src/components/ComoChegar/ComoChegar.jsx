@@ -4,7 +4,7 @@ import './ComoChegar.css';
 export function ComoChegar() {
   return (
     <>
-      <Container className="container div-maior-como-chegar">
+      <Container className="container div-maior-como-chegar p-5">
         <h2 className="title-card-como-chegar mt-3">Como Chegar</h2>
         <span className="span-card-como-chegar">
           Clique em ver
