@@ -1,11 +1,11 @@
-import { Button, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import img2 from '../../images/conveniencias/bebidas.jpg';
 import Slider from 'react-slick';
 import './Conveniencia.css';
 import { useEffect, useState } from 'react';
-import { Marmitaria } from '../Marmitaria/Marmitaria';
 
 export function Conveniencia() {
+  
   const [activeCardIndex, setActiveCardIndex] = useState(0);
 
   const [sliderSettings, setSliderSettings] = useState({
@@ -15,7 +15,7 @@ export function Conveniencia() {
     autoplay: true,
     autoplaySpeed: 3000,
     arrows: true,
-    beforeChange: (current, next) => setActiveCardIndex(next),
+    beforeChange: (next) => setActiveCardIndex(next),
   });
 
   useEffect(() => {
@@ -37,7 +37,7 @@ export function Conveniencia() {
         });
       }
     };
-
+  
     handleResize();
     window.addEventListener('resize', handleResize);
     return () => {
@@ -157,7 +157,6 @@ export function Conveniencia() {
             </div>
           </Slider>
         </div>
-        <Marmitaria />
       </section>
     </>
   );

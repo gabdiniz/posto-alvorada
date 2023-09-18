@@ -1,13 +1,11 @@
-
-
 .container-marmitaria {
   max-width: 1200px;
   margin: auto;
-  padding-top: 100px; 
+  padding-top: 100px;
   display: grid;
-  grid-template-columns: 40% 60%;  
+  grid-template-columns: 40% 60%;
 
- }
+}
 
 
 .link {
@@ -15,7 +13,7 @@
   flex-direction: row;
   align-items: center;
   gap: 2rem;
- justify-content: space-around;
+  justify-content: space-around;
 }
 
 .link-whatsapp {
@@ -35,9 +33,9 @@
   gap: 3rem;
   flex-wrap: wrap;
 }
+
 .imgs-marmita img {
   max-width: 260px;
   box-shadow: 0 0 10px black;
-  
-}
 
+}

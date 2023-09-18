@@ -37,26 +37,7 @@ export function Marmitaria() {
           alt="Foto do prato com a refeição"
           style={{ width: '100%', height: 'auto' }}
         />
-        <img
-          src={img}
-          alt="Foto do prato com a refeição"
-          style={{ width: '100%', height: 'auto' }}
-        />
-        <img
-          src={img}
-          alt="Foto do prato com a refeição"
-          style={{ width: '100%', height: 'auto' }}
-        />
-        <img
-          src={img}
-          alt="Foto do prato com a refeição"
-          style={{ width: '100%', height: 'auto' }}
-        />
-        <img
-          src={img}
-          alt="Foto do prato com a refeição"
-          style={{ width: '100%', height: 'auto' }}
-        />
+
       </div>
     </section>
   );

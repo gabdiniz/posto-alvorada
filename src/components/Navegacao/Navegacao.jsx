@@ -149,7 +149,7 @@ export function Navegacao() {
           </Link>
           <Link
             className="item-navbar"
-            to="conveniencia"
+            to="container-conveniencia"
             spy={true}
             smooth={true}
             offset={-100}

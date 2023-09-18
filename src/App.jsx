@@ -6,7 +6,7 @@ import { Banner } from './components/Banner/Banner';
 import { Servicos } from './components/Servicos/Servicos';
 import IrParaInicio from './components/IrParaInicio/IrParaInicio';
 import { Conveniencia } from './components/Conveniencia/Conveniencia';
-// import { Marmitaria } from './components/Marmitaria/Marmitaria';
+import { Marmitaria } from './components/Marmitaria/Marmitaria';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Sobre />
       <Servicos />
       <Conveniencia />
-      {/* <Marmitaria /> */}
+      <Marmitaria />
       <ComoChegar />
       <Footer />
       <IrParaInicio />
