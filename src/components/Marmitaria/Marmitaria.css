@@ -1,24 +1,21 @@
-.container-marmitaria {
-  max-width: 1200px;
-  margin: auto;
-  padding-top: 100px;
-  display: grid;
-  grid-template-columns: 40% 60%;
-
+.marmitaria {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 
-.link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 2rem;
-  justify-content: space-around;
+.text-center {
+  max-width: 1000px;
 }
 
 .link-whatsapp {
-  font-size: 3.5rem;
+  font-size: 3rem;
   border: 0.5rem;
+
 }
 
 .link-whatsapp:hover {
@@ -26,16 +23,15 @@
   cursor: pointer;
 }
 
-
 .imgs-marmita {
-  padding: 1rem 3rem;
   display: flex;
-  gap: 3rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.imgs-marmita img {
-  max-width: 260px;
-  box-shadow: 0 0 10px black;
-
+img {
+  max-width: 300px;
+  max-height: 350px;
+  padding: 10px;
+  align-items: center;
 }
