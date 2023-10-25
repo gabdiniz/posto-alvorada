@@ -1,7 +1,7 @@
 /* Estilize o elemento .capa que terá o fundo com a imagem */
 .Banner {
     position: relative; /* Garante que o pseudo-elemento esteja posicionado corretamente */
-    background: #000 url('../../images/capa-Banner/posto_capa.png') no-repeat center center ;
+    background: #000 url('../../images/capa-Banner/capa1.jpeg') no-repeat center center ;
     background-size: cover;
     height: 85vh;
     width: 100%;

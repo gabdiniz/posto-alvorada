@@ -1,6 +1,8 @@
 import { Nav } from 'react-bootstrap';
 import { FaWhatsapp } from 'react-icons/fa';
-import img from '../../images/marmitaria/restaurante-refeicao.jpg';
+import img1 from '../../images/marmitaria/marmita1.jpeg';
+import img2 from '../../images/marmitaria/marmita2.jpeg';
+import img3 from '../../images/marmitaria/marmita3.jpeg';
 import './Marmitaria.css';
 
 export function Marmitaria() {
@@ -31,15 +33,15 @@ export function Marmitaria() {
 
         <div className="imgs-marmita ms-5">
           <img
-            src={img}
+            src={img2}
             alt="Foto do prato com a refeição"
           />
           <img
-            src={img}
+            src={img1}
             alt="Foto do prato com a refeição"
           />
           <img
-            src={img}
+            src={img3}
             alt="Foto do prato com a refeição"
           />
         </div>

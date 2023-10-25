@@ -27,9 +27,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
 }
 
 img {
+  margin: 0;
   max-width: 300px;
   max-height: 350px;
   padding: 10px;
